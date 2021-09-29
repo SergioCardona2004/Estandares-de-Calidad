@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Source+Sans+Pro&display=swap');
+
+#principal{
+    width: 1000px;
+    height: 700px;
+    margin: 30px auto;
+    background: white;
+}
+
+header{
+    background-image: url(../images/mano.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    height: 200px;
+}
+
+h1{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6% 34%;
+    font-size: 33px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Caja {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Caja .logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Caja .logos img {
+    width: 200px;
+    height: 100px;
+}
+
+.Caja .Parrafos {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.Caja .Parrafos .Parrafo {
+    color: black;
+    font-size: 20px;
+}
+
+
+.Caja .titulos {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Caja a{
+    text-decoration: none;
+    padding: 4% 5% 5% 9%;
+    color: white;
+    background-color: rgb(101, 168, 180);
+    border-radius: 10px;
+}
+
+.boton{
+    padding: 0% 0% 0% 30%;
+}
+
+@media screen and (max-width:1000px){ 
+    header{
+        width: 1058px;
+    }
+}
+
+@media screen and (max-width:768px){ 
+    header{
+        width: 760px;
+    }
+    
+    h1{
+        padding: 10% 0% 0% 30%;
+        font-size: 27px;
+    }
+    .contenedor{
+        padding: 0% 0% 0% 27%;
+    }
+}
+
+@media screen and (max-width:576px){ 
+    header{
+        width: 616px;
+    }
+    
+    h1 {
+        padding: 15% 0% 0% 30%;
+        font-size: 20px;
+    }
+}
